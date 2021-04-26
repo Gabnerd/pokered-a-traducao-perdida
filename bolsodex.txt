@@ -104,7 +104,7 @@ Executovo
 Ossote
 Batutano
 Batemonpelé
-Batemonguila
+Batemonguila <- maior numero de caracteres (12)
 Linguada
 Tossino
 Espirrano
