@@ -451,7 +451,7 @@ ShowPokedexDataInternal:
 	call PlaceString
 
 	call GetMonName
-	hlcoord 9, 2
+	hlcoord 7, 2
 	call PlaceString
 
 	ld hl, PokedexEntryPointers
@@ -500,8 +500,34 @@ ShowPokedexDataInternal:
 	call Delay3
 	call GBPalNormal
 	call GetMonHeader ; load pokemon picture location
-	hlcoord 1, 1
+	hlcoord 0, 1
 	call LoadFlippedFrontSpriteByMonIndex ; draw pokemon picture
+	hlcoord 0, 0
+	ld de, 1
+	lb bc, $64, SCREEN_WIDTH
+	call DrawTileLine ; draw top border
+
+	hlcoord 0, 17
+	ld b, $6f
+	call DrawTileLine ; draw bottom border
+
+	hlcoord 0, 1
+	ld de, 20
+	lb bc, $66, $10
+	call DrawTileLine ; draw left border
+
+	hlcoord 19, 1
+	ld b, $67
+	call DrawTileLine ; draw right border
+
+	ld a, $63 ; upper left corner tile
+	ldcoord_a 0, 0
+	ld a, $65 ; upper right corner tile
+	ldcoord_a 19, 0
+	ld a, $6c ; lower left corner tile
+	ldcoord_a 0, 17
+	ld a, $6e ; lower right corner tile
+	ldcoord_a 19, 17
 	ld a, [wcf91]
 	call PlayCry ; play pokemon cry
 
