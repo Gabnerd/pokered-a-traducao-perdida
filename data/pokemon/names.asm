@@ -1,6 +1,6 @@
 MonsterNames::
 	table_width NAME_LENGTH - 1, MonsterNames
-	db "RHYDON@@@@@@"
+	db "RINAO@@@@@@@"
 	db "KANGASKHAN@@"
 	db "NIDORAN♂@@@@"
 	db "CLEFAIRY@@@@"
@@ -175,7 +175,7 @@ MonsterNames::
 	db "MAGNEMITE@@@"
 	db "MISSINGNO.@@"
 	db "MISSINGNO.@@"
-	db "CHARMANDER@@"
+	db "CHARLAMANDRA"
 	db "SQUIRTLE@@@@"
 	db "CHARMELEON@@"
 	db "WARTORTLE@@@"

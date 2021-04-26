@@ -1399,13 +1399,12 @@ _MagnemiteDexEntry::
 	dex
 
 _CharmanderDexEntry::
-	text "Obviously prefers"
-	next "hot places. When"
-	next "it rains, steam"
+	text "Obviamente prefere"
+	next "lugares quentes."
+	next "Quando Chove,"
 
-	page "is said to spout"
-	next "from the tip of"
-	next "its tail"
+	page "dizem que sua"
+	next "calda solta vapor"
 	dex
 
 _SquirtleDexEntry::

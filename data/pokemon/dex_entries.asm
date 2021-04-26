@@ -1178,9 +1178,9 @@ MagnemiteDexEntry:
 	text_end
 
 CharmanderDexEntry:
-	db "LIZARD@"
-	db 2,0
-	dw 190
+	db "LAGARTO@"
+	db 0,60
+	dw 85
 	text_far _CharmanderDexEntry
 	text_end
 
