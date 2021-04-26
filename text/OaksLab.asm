@@ -26,9 +26,9 @@ _OaksLabText39::
 	done
 
 _OaksLabCharmanderText::
-	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	text "Eae? Vai querer o"
+	line "#MON de fogo,"
+	cont "CHARLAMANDRA?"
 	done
 
 _OaksLabSquirtleText::

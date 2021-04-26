@@ -1,7 +1,7 @@
 Bulbossauro
 Ervassauro
 Venussauro
-Charlamandra
+Charmander -> Charlamandra
 Charmaleão
 Charigarto
 Esguitaruga
@@ -109,7 +109,7 @@ Linguada
 Tossino
 Espirrano
 Rinochifre
-Rinão
+Rhydon -> Rinão
 Sorti
 Embolusa
 Khanguru

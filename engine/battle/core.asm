@@ -1820,7 +1820,7 @@ DrawPlayerHUDAndHPBar:
 	hlcoord 18, 9
 	ld [hl], $73
 	ld de, wBattleMonNick
-	hlcoord 10, 7
+	hlcoord 8, 7
 	call CenterMonName
 	call PlaceString
 	ld hl, wBattleMonSpecies
